@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mohameds portfolio" />
+    <link rel="icon" href="image/g.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Left icons section -->
+    <div class="left-icons fixed top-1/2 transform -translate-y-1/2 flex flex-col items-center justify-center h-40 px-3 bg-white shadow-lg">
+      <a href="https://github.com/Coding-Mohamed" target="_blank"><i class="fab fa-github text-3xl"></i></a>
+      <a href="mailto:mohamed_h7@outlook.com" target="_blank"><i class="fa-regular fa-envelope text-3xl"></i></a>
+      <a href="https://www.linkedin.com/in/mohamed-software/" target="_blank"><i class="fab fa-linkedin text-3xl"></i></a>
+    </div>
+
+    <!-- Main content wrapper -->
+    <div class="wrapper flex flex-col md:flex-row-reverse items-center justify-around p-8 md:p-20">
+      <div class="profile flex-1 md:w-1/2 lg:w-1/3">
+        <img src="image/animate.svg" alt="Profile Image" class="w-full" />
+      </div>
+      <div class="info flex-1 md:ml-10 lg:ml-20 mt-10 md:mt-0 lg:mt-0">
+        <span class="hi text-sm ml-4">Hej! Jag är</span>
+        <h1 class="text-3xl font-semibold mb-4 ml-4">Mohamed</h1>
+        <div class="scroll-text ml-4">
+          <p class="text-base mb-3">Frontend-utvecklare med starkt intresse för</p>
+          <span data-word="webbutveckling" class="text-purple-600 capitalize">Webbdesign</span>
+          <span data-word="Backend" class="text-purple-600 capitalize">Backend</span>
+          <span data-word="UX-design" class="text-purple-600 capitalize">UI/UX-design</span>
+          <span data-word="Startups" class="text-purple-600 capitalize">Startups</span>
+          <span data-word="problemlösning" class="text-purple-600 capitalize">Programvara</span>
+          <span data-word="Lärande" class="text-purple-600 capitalize">Lärande</span>
+        </div>
+        <div class="btn flex md:flex-row gap-2 mt-8 py-4">
+          <button class="animate-btn flex items-center justify-center outline-none cursor-pointer w-full md:w-36 h-12 bg-gradient-to-t from-gray-300 via-white to-gray-100 border border-gray-300 rounded transition duration-200 font-semibold text-gray-600 hover:shadow-md mb-2 md:mb-0 ml-4" id="about">Om <i class="fas fa-arrow-alt-circle-down ml-2"></i></button>
+          <button class="animate-btn flex items-center justify-center outline-none cursor-pointer w-full md:w-36 h-12 bg-gradient-to-t from-gray-300 via-white to-gray-100 border border-gray-300 rounded transition duration-200 font-semibold text-gray-600 hover:shadow-md mb-2 md:mb-0" id="projects">Projekt <i class="fas fa-arrow-alt-circle-down ml-2"></i></button>
+          <button class="animate-btn flex items-center justify-center outline-none cursor-pointer w-full md:w-36 h-12 bg-gradient-to-t from-gray-300 via-white to-gray-100 border border-gray-300 rounded transition duration-200 font-semibold text-gray-600 hover:shadow-md">CV <i class="fas fa-arrow-up-right-from-square ml-2"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second page about me and skills -->
+    <div class="about-me flex flex-wrap justify-around items-center p-8 md:p-20 lg:p-20 min-h-screen">
+      <div class="about w-full lg:w-3/5 p-1">
+        <h2 class="text-3xl font-semibold" id="about-section">Om Mig</h2>
+        <div class="about-info mt-4">
+          <p class="sec1 text-base font-lg leading-7">👋 Hej där! Jag är Mohamed, en 22-åring som älskar att förverkliga kreativa idéer online.</p>
+          <p class="sec2 text-base font-lg leading-7 mt-3">🌟 Jag är specialist inom frontend-utveckling och använder avancerade teknologier som JavaScript, React, HTML/CSS samt andra moderna frontend-ramverk och verktyg för att skapa stilrena och användarvänliga webbplatser.</p>
+          <p class="sec3 text-base font-lg leading-7 mt-3">🎨 Förutom kodning har jag ett starkt intresse för UI/UX-design. Jag gillar att kombinera estetik med användbarhet för att leverera effektiva digitala lösningar.</p>
+          <p class="sec4 text-base font-lg leading-7 mt-3">🌱 För närvarande fortsätter jag att lära och förbättra mina färdigheter inom webbutveckling för att ligga i framkant i denna dynamiska bransch.</p>
+          <p class="sec5 text-base font-lg leading-7 mt-3">🚀 Låt oss samarbeta och skapa något fantastiskt tillsammans! Oavsett om det handlar om att redesigna en webbplats, förbättra användargränssnitt eller utforska innovativa webblösningar, räkna med mig!</p>
+          <p class="sec6 text-base font-lg leading-7 mt-3">📚 När jag inte kodar, utforskar jag nya teknologier, skissar designidéer eller njuter av friluftsliv.</p>
+          <p class="sec7 text-base font-lg leading-7 mt-3">✉️ Tveka inte att höra av dig för spännande möjligheter eller bara för att ansluta!</p>
+        </div>
+      </div>
+
+      <div class="skills w-full lg:w-2/5 mt-12 lg:mt-0 p-10">
+        <h2 class="text-3xl font-semibold mb-8">Kompetenser</h2>
+        <div class="lang mt-4 gel">
+          <h3 class="text-2xl font-semi flex items-center mb-4"><i class="fas fa-caret-right mr-2"></i>Språk</h3>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">JavaScript</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">HTML/CSS</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">TypeScript</span>
+        </div>
+        <div class="frame mt-10 mb-10 gel">
+          <h3 class="text-2xl font-semi flex items-center mb-4"><i class="fas fa-caret-right mr-2"></i>Ramverk/Bibliotek</h3>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-5">React</span>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-5">Next.js</span>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-5">Node.js</span>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-10">Express.js</span>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-5">MongoDB</span>
+          <span class="yellow text-base font-medium leading-10 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-5">Tailwindcss</span>
+        </div>
+        <div class="tools mt-6 gel">
+          <h3 class="text-2xl font-semi flex items-center mb-4"><i class="fas fa-caret-right mr-2"></i>Verktyg</h3>
+          <span class="green text-base font-medium leading-10 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-5">Visual studio Code</span>
+          <span class="green text-base font-medium leading-10 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-5">GitHub</span>
+          <span class="green text-base font-medium leading-10 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-5">Canva</span>
+          <span class="green text-base font-medium leading-10 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-5">Figma</span>
+          <span class="green text-base font-medium leading-10 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-5">Postman</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third page projects -->
+    <div class="projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center p-8" id="projects-section">
+      <!-- Project Card -->
+      <div class="project-card relative w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Fullstack E-handelsbutik</h3>
+        <img src="image/Fullstuck.png" alt="Project 1" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal1')" />
+        <div class="frame mt-2 text-center">
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">React</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">Express.js</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">MongoDB</span>
+        </div>
+
+        <!-- Modal Trigger -->
+        <!-- <div class="modal-trigger absolute top-0 right-0 bg-gray-800 text-white px-2 py-1 rounded-bl-md cursor-pointer" onclick="openModal('myModal')">View Details</div> -->
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Att göra-applikation</h3>
+        <img src="image/tod.png" alt="Project 2" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal2')" />
+        <div class="frame mt-2 text-center">
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">Javascript</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">HTML/CSS</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">API</span>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Enkel Mini-räknare</h3>
+        <img src="image/calc.png" alt="Project 3" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal3')" />
+        <div class="frame mt-2 text-center">
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">Javascript</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">HTML</span>
+          <span class="yellow text-base font-medium leading-7 border border-yellow-500 py-1 px-2 rounded-lg bg-yellow-100 mt-2">Tailwindcss</span>
+        </div>
+      </div>
+      <!-- Project Card 4 -->
+      <div class="project-card w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Väder-App</h3>
+        <img src="image/weather.png" alt="Project 3" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal4')" />
+        <div class="tools mt-2 text-center">
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">JavaScript</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">HTML/CSS</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">API</span>
+        </div>
+      </div>
+      <!-- Project Card 5 -->
+      <div class="project-card w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Slumpmässig landsgenerator</h3>
+        <img src="image/random-country-pic.png" alt="Project 3" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal5')" />
+        <div class="tools mt-2 text-center">
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">JavaScript</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">HTML</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">Tailwindcss</span>
+        </div>
+      </div>
+      <!-- Project Card 6 -->
+      <div class="project-card w-full p-3 bg-white shadow-md rounded-lg overflow-hidden">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">KYH Klone</h3>
+        <img src="image/kyh.png" alt="Project 3" class="w-full h-48 object-cover object-center rounded-lg mb-4 cursor-pointer" onclick="openModal('modal6')" />
+        <div class="tools mt-2 text-center">
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">JavaScript</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">HTML</span>
+          <span class="green text-base font-medium leading-7 border border-green-500 py-1 px-2 rounded-lg bg-green-100 mt-2">Tailwindcss</span>
+        </div>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+
+    <!-- Modal -->
+    <div>
+      <!-- Modal 1 -->
+      <div id="modal1" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-2">Fullstack E-handelsbutik</h2>
+          <p class="mb-4">En omfattande lösning som kombinerar en Node.js-backend med Express och MongoDB för hantering av produkter, användare och beställningar, tillsammans med en stilren React-front-end. Njut av säker autentisering, smidig produktbläddring och effektiv orderhantering i denna moderna e-handelsplattform.</p>
+          <div class="flex justify-around mt-5">
+            <!-- <button onclick="window.location.href='#'" target="_blank" class="btn flex items-center space-x-2 border border-yellow-500 bg-yellow-200 hover:bg-yellow-400 text-black-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>view product</span>
+            </button> -->
+            <a href="https://github.com/Coding-Mohamed/Ecommers-Store" target="_blank" class="btn flex items-center space-x-2 test font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2 -->
+      <div id="modal2" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-4">ToDo-List-App</h2>
+          <p class="mb-4">Håll koll på dina uppgifter med denna enkla att göra-lista-app. Du kan lägga till, redigera och ta bort uppgifter utan ansträngning. Prova själv. Skapad med Html, Css och Javascript.</p>
+          <div class="flex justify-around mt-5">
+            <button onclick="window.open('https://todos-list-application.netlify.app/', '_blank')" class="btn flex items-center space-x-2 border border-yellow-500 bg-yellow-200 hover:bg-yellow-400 text-black-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>view product</span>
+            </button>
+            <a href="https://github.com/Coding-Mohamed/ToDo-List-App" target="_blank" class="btn flex items-center space-x-2 test font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 3 -->
+      <div id="modal3" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-2">Enkel miniräknare</h2>
+          <p class="mb-4">Enkel miniräknare Utför grundläggande aritmetiska operationer med lätthet. Byggd med HTML, CSS och JavaScript för intuitiv funktionalitet. Tydligt gränssnitt, responsiv design.</p>
+          <div class="flex justify-around mt-5">
+            <button onclick="window.open('https://simple-calculata.netlify.app/', '_blank')" class="btn flex items-center space-x-2 border border-yellow-500 bg-yellow-200 hover:bg-yellow-400 text-black-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>view product</span>
+            </button>
+            <a href="https://github.com/Coding-Mohamed/Simple-Calculator" target="_blank" class="btn flex items-center space-x-2 test font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 4 -->
+      <div id="modal4" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-2">Väder-App</h2>
+          <p class="mb-4">Enkel och stilren väderapp. Få aktuella förhållanden och prognoser för valfri plats. Drivs av HTML, CSS, JavaScript och OpenWeather API.</p>
+          <div class="flex justify-around mt-5">
+            <button onclick="window.open('https://checking-weather.netlify.app/', '_blank')" class="btn flex items-center space-x-2 bg-green-200 border border-green-500 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>Hemsidan</span>
+            </button>
+            <a href="https://github.com/Coding-Mohamed/Weather-App" target="_blank" class="btn flex items-center space-x-2 test font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 5 -->
+      <div id="modal5" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-2">Slumpmässig landsgenerator</h2>
+          <p class="mb-4">GeoGen är en webbapplikation som låter dig utforska slumpmässiga länder och upptäcka fascinerande detaljer om varje lands huvudstad, befolkning, språk, valuta, storlek och region. Klicka på "Explore" för att påbörja en spännande upptäcktsresa!</p>
+          <div class="flex justify-around mt-5">
+            <button onclick="window.open('https://geogen.netlify.app/', '_blank')" class="btn flex items-center space-x-2 bg-green-200 border border-green-500 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>Hemsidan</span>
+            </button>
+            <a href="https://github.com/Coding-Mohamed/Random-country-generator" target="_blank" class="btn flex items-center space-x-2 test py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 6 -->
+      <div id="modal6" class="modal hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="modal-content bg-white p-6 rounded-lg shadow-md">
+          <span class="close absolute top-0 right-3 text-3xl cursor-pointer text-gray-600" onclick="closeModal('myModal')">&times;</span>
+          <h2 class="text-xl font-semibold mb-2">KYH Yrkeshögskolas webbplats</h2>
+          <p class="mb-4">Det visar en studentportal där varje elev har en personlig sida för att följa sina studier. Gränssnittet är endast visuellt och saknar fungerande backend-funktionalitet.</p>
+          <div class="flex justify-around mt-5">
+            <button onclick="window.open('https://kyh-website.netlify.app/', '_blank')" class="btn flex items-center space-x-2 bg-green-200 border border-green-500 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fas fa-eye"></i>
+              <span>Hemsidan</span>
+            </button>
+            <a href="https://github.com/Coding-Mohamed/Kyh-Clone" target="_blank" class="btn flex items-center space-x-2 test font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer bg-gray-800 text-white p-4 text-center mt-5">
+      <p>&copy; 2024 Mohamed, All rights reserved</p>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="Script.js"></script>
+  </body>
+</html>
