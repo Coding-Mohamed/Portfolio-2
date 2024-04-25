@@ -63,7 +63,7 @@ body {
   color: var(--hover);
 }
 
-.btn button:hover {
+.btn .animate-btn:hover {
   border: 0.1px solid var(--hover);
 }
 
