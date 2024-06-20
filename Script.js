@@ -81,3 +81,20 @@ document.getElementById("about").addEventListener("click", function () {
 document.getElementById("projects").addEventListener("click", function () {
   document.getElementById("projects-section").scrollIntoView({ behavior: "smooth" });
 });
+
+// Scroll to top
+document.addEventListener("DOMContentLoaded", function () {
+  ScrollReveal().reveal(".left-icons", { delay: 200, duration: 1000, distance: "500px", origin: "left", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".hi, .about-me, .projects", { delay: 200, duration: 500, distance: "100px", origin: "bottom", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".about", { delay: 250, duration: 500, distance: "200px", origin: "left", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".skills", { delay: 250, duration: 500, distance: "200px", origin: "right", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".projects", { delay: 200, duration: 500, distance: "100px", origin: "bottom", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".img-riveal", { delay: 250, duration: 600, distance: "200px", origin: "top", easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".scroll-text, .about", { delay: 400, duration: 600, distance: "80px", origin: "left", easing: "ease-in", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".btn, .skills", { delay: 600, duration: 700, easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".lang", { delay: 800, duration: 800, easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".frame", { delay: 1000, duration: 900, easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".tools", { delay: 1200, duration: 1000, easing: "ease-in-out", scale: 0.85, opacity: 1 });
+  ScrollReveal().reveal(".rt-1", { delay: 400, duration: 600, distance: "100px", origin: "right", easing: "ease-in-out", scale: 0.85, opacity: 1, interval: 200 });
+  ScrollReveal().reveal(".rt-2", { delay: 450, duration: 650, distance: "80px", origin: "left", easing: "ease-in-out", scale: 0.85, opacity: 1, interval: 200 });
+});
